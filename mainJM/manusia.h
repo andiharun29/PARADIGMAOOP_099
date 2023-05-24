@@ -8,7 +8,7 @@ public:
 	jantung varjantung;
 
 	manusia(string pname)
-		: name(pnmae) {
+		: name(pname) {
 		cout << name << " hidup\n";
 	}
 	~manusia() {
