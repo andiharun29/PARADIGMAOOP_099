@@ -25,4 +25,4 @@ void ibu::cetakanak() {
 	}
 	cout << endl;
 }
-#endif
+#endif // !IBU_H

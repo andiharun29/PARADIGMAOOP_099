@@ -12,5 +12,5 @@ public:
 	}
 };
 
-#endif // !1
+#endif // !ANAK_H
 
