@@ -17,3 +17,17 @@ public:
 	void cetakdokter();
 };
 
+class dokter {
+public:
+	string nama;
+	vector <pasien*> daftar_dokter;
+	dokter(string pnama) : nama(pnama) {
+		cout << "dokter \"" << nama << "\" ada\n";
+	}
+	~dokter() {
+		cout << "dokter \"" << nama << "\" tidak ada\n";
+	}
+	void tambahpasien(dokter*);
+	void cetakpasien();
+};
+
